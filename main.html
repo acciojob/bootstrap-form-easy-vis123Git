@@ -7,7 +7,48 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<div class="main-container">
+		<h1>Internship Form</h1>
+		<form>
+			<div class="input-container">
+				<label for="firstName">First Name</label>
+				<input type="text" name="firstName" id="first-name-input">				
+			</div>
+
+			<div class="input-container">
+				<label for="lastName">Last Name</label>
+				<input type="text" name="lastName" id="last-name-input">
+			</div>
+
+			<div class="input-container">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email-input">
+			</div>
+
+			<div class="input-container">
+				<label for="college">College</label>
+				<input type="text" name="college" id="college-input">
+			</div>
+
+			<div class="input-container">
+				
+			<label for="graduation">Graduation Year</label>
+			<select name="graduation" id="graduation-input">
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+			</select>
+			</div>
+			<div >
+				<input type="checkbox" id="conditions-checkbox" name="conditions-checkbox" value="Bike">
+				<label for="conditions-checkbox">Agree to term and conditions</label>
+			</div>
+
+
+			<button type="submit">Submit form</button>
+		</form>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 

@@ -1,2 +1,27 @@
 
-/* Your CSS Code here. */
+.main-container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center
+}
+form{
+	padding: 10px 0px;
+	border:2px solid red;
+		display:flex;
+	flex-direction:column;
+		justify-content:center;
+	align-items:center;
+	text-align:center;
+	gap:20px;
+	width:100%;
+	
+}
+.input-container{
+	/* border:2px solid blue; */
+	width: 70%;
+	display:flex;
+	justify-content:space-between;
+	
+}
